@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>hw_html_star_tower-CSLIN0402</title>
+	<meta charset="utf-8" />
+    <style>
+        body {
+        font-family:monospace;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        for (var i = 1; i <= 5; i++) {
+            var line = "";
+            
+                for (var a = 1; a <= i; a++) {
+                    line = line + "*";
+                }
+                for (var b = 10-(i*2); b >= 1; b--) {
+                    line=line+"&nbsp";
+                }
+                for (var a = 1; a <= i; a++) {
+                    line = line + "*";
+                }
+                document.write(line + "<br/>");
+            
+           
+        }
+    </script>
+</body>
+</html>
